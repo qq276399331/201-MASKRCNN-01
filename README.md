@@ -4,6 +4,8 @@
 特别注意的是：在这份代码中，最重要的是提供了一个接口，可以使用自己的数据集，我们使用的目的就是利用自己的数据和标记
 接下来，我会这里注明，哪个文件添加了标记，你们在运行的时候，也要及时添加标注
 
+2017.12.16，现在安排陈岩去跑这个模型
+
 The code is documented and designed to be easy to extend. If you use it in your research, please consider referencing this repository. If you work on 3D vision, you might find our recently released [Matterport3D](https://matterport.com/blog/2017/09/20/announcing-matterport3d-research-dataset/) dataset useful as we
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
